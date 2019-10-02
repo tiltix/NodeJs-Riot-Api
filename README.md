@@ -3,8 +3,13 @@
 ## Resimleri
 
 ## Kurulum Komutları
+
 ```
 git clone https://github.com/tiltix/NodeJs-Riot-Api
 npm install
 npm start
 ```
+
+# ChangeLog
+        v1.1
+    • Probuilds feeder added

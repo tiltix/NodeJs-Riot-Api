@@ -1,0 +1,25 @@
+{
+  "name": "NodeJs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "xray": "node ./xray.js"
+  },
+  "keywords": [],
+  "author": "tiltX <tiltx@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kayn": "^0.10.2",
+    "mysql": "^2.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.3.0",
+    "vue": "^2.6.10",
+    "x-ray": "^2.3.4",
+    "x-ray-phantom": "^1.0.1"
+  }
+}
