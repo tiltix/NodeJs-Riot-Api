@@ -3,6 +3,9 @@ data1.txt
 data2.html
 data2.txt
 data3.txt
+log/
+
+
 # Logs
 logs
 *.log
