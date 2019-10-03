@@ -14,12 +14,12 @@ const logger = winston.createLogger({
     ),
     transports : [
         new transports.Console(),
-        // burada oluşacak hataların loglarının kayıt edileeceği kısım.
+        // loglarının kayıt edileeceği yerin belirlenmesi
         new winston.transports.File({filename:'log/combined.log'})
     ]
 });
-var at = 'kulak'
+var mesaj = 'mesaj içeriği dışardanda tanımlanamabilir'
 logger.log({
     level : 'info',
-    message : at
+    message : mesaj
 });
