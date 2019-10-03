@@ -54,12 +54,14 @@ router.get('/:adi',(req,res)=>{
                 if (element == req.params.adi)
                 {
                     kayn.DDragon.Champion.getDataById(req.params.adi)
-                        .callback((error,datas)=>{
-                            
-                            var veriler = datas.data[ChampsAdi].blurb
+                        .callback((error,data)=>{
+                            console.log(data.data[req.params.adi].lore)
+                            res.write(data.data[req.params.adi].lore)
+                            res.end();
+                            // var veriler = datas.data[ChampsAdi].blurb
                             //  do something
-                            console.log(veriler)
-                             res.send(veriler)
+                            // console.log(veriler)
+                            // res.send(veriler)
                         })
                     i=1;
                     //  res.send(req.params.adi + '- Şampiyon Bilgileri')
