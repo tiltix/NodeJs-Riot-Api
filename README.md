@@ -1,6 +1,6 @@
 # NodeJs-Riot-Api
-    Riot League of Legend'in API'siyle çalışmak için `Kayn` kütüphanesi kullanılmıştır.
-## Resimleri
+    MethaLoL veri besleyicisi
+
 
 ## Kurulum Komutları
 
@@ -12,4 +12,5 @@ npm start
 
 # ChangeLog
         v1.1
-    • Probuilds feeder added
+    • [Added] Probuilds feeder
+    • [Added] Log (Winston)

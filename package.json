@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "dev": "nodemon ./index.js",
-    "xray": "node ./xray.js"
+    "dev": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "tiltX <tiltx@hotmail.com>",
